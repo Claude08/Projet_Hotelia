@@ -1,0 +1,212 @@
+body{
+    font-family:'Parisienne','Tenor Sans display';
+    
+}
+#container-fluid>.row>p, .media{
+    font-size:20px;
+}
+
+
+/*Responsive*/
+@media screen and (max-width:475px){
+    .map{
+        
+       margin-top: 20px;
+        }
+    .right_side,.left_side{
+        display: none;
+    }
+    
+    .media-body{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+}
+
+
+/*Style du header*/
+header{
+    text-align: center;
+    padding-top: 10px;
+    background-color:#C69C6C; 
+}
+.hotelia{
+    color: white;
+}
+
+.enTete{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height:200px;
+}
+
+.navbar{
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.navbar>div>.nav-link{
+    font-size:14px ;
+}
+.navbar>button{
+    background-color: #C69C6C;
+}
+
+.navbar>button>li>a{
+    background-color: #CD9933;
+}
+#navbarTogglerDemo01>ul>li>a, #navbarTogglerDemo01>ul>li>div>a{
+    color: #C69C6D;
+}
+
+
+/*Style du footer*/
+#footer{
+    width:100%;
+    background-color:#C69C6C;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    color : white;
+}
+
+#footer>.enTete{
+    margin-left: 5%;
+}
+
+.topFooter{
+    font-family: 'Open Sans display';
+}
+.topFooter>p>a{
+    color: white;
+}
+#nous_suivre>a{
+    color: white;
+}
+.input-group{
+     font-family: 'Open Sans display';
+}
+
+#legal_mentions>ul{
+   list-style-type:none;
+}
+
+#legal_mentions>ul>li{
+    display: inline-block;
+    font-family: 'Open Sans display';
+    font-size: 1em;
+}
+#legal_mentions>ul>li>a{
+    color: white;
+}
+
+#legal_mentions>ul>li>.print{
+    position: relative;
+}
+
+.fas{
+    position: relative;
+    height: 40px;
+    background-color:#C69C6C;
+}
+
+
+/*Style du main*/
+.corpus>.left_side>ul>li>a{
+    color: #C69C6D;
+}
+.corpus>.right_side>p>a{
+    color: #C69C6D;
+}
+.row{
+    color:  #C69C6D;
+}
+.row>.left_side>ul>li>a{
+    color: #C69C6D;
+}
+.row>.right_side>p>a{
+    color: #C69C6D;
+}
+.right_side{
+    width: 150px;
+  font-family: 'Open Sans display';
+}
+.left_side{
+    width: 150px;
+  font-family: 'Open Sans display';
+}
+.middle{
+    font-family: 'Open Sans display';
+    text-align: center;
+}
+#spa{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.left_side>ul>hr{
+    width: 100px ;
+    margin-left: -15px;
+}
+.corpus{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans display';
+    color : #C69C6D;
+}
+
+.row{
+    font-family: 'Open Sans display';
+}
+
+
+/*Style des options (scrollBar, ...)*/
+#scrollBar { 
+    z-index: 6;
+  width: 60px; 
+  margin: 15px auto; 
+  position: relative; 
+}
+
+#sidebar { 
+    z-index: 6;
+  width: 40px; 
+  position: fixed; 
+  margin-left: 600px; 
+}
+
+
+/*Style reservation*/
+#bandeauDates{
+    width: 100%;
+    min-height: 60px;
+    background-color: darkgrey;
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.dates{
+    text-transform: uppercase;
+}
+.dates>input{
+   border: 2px grey ridge;
+}
+fieldset{
+    width: 100%;
+    background-color: #ebebeb;
+    margin: 15px auto;
+    padding-left: 10px;
+}
+.nombrePersonne{
+     display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
